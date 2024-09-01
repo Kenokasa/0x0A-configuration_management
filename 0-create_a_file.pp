@@ -1,6 +1,6 @@
 #Create a file in /tmp
 
-file { 'school':
+file { 'keno':
 ensure  => 'present',
 path    => '/tmp/school',
 mode    => '0744',
